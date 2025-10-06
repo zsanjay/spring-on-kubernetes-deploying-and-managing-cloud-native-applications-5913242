@@ -14,17 +14,13 @@ import lombok.Data;
 @Table(name = "vendors")
 @Data
 public class Vendor {
-
   @Id
   @GeneratedValue(strategy = GenerationType.UUID)
   private UUID vendorId;
-
   private String name;
   private String contact;
   private String phone;
-
   @Column(unique = true)
   private String email;
-
   private String address;
 }
