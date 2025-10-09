@@ -10,7 +10,6 @@ import org.springframework.beans.factory.annotation.Value;
 
 @SpringBootApplication
 public class WisdomApiApplication {
-
 	public static void main(String[] args) {
 		SpringApplication.run(WisdomApiApplication.class, args);
 	}
